@@ -1,0 +1,43 @@
+.. plataforma de videos documentation master file, created by
+   sphinx-quickstart on Thu Oct 21 21:02:23 2021.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to plataforma de videos's documentation!
+================================================
+
+.. automodule:: usuario
+ :members:
+
+.. automodule:: aprendiz
+ :members:
+
+.. automodule:: business
+ :members:
+ 
+ .. automodule:: canal
+  :members:
+ .. automodule:: inscricao
+  :members:
+ 
+ .. automodule:: assinatura
+  :members:
+ 
+ .. automodule:: plano
+  :members:
+ 
+ .. automodule:: video
+  :members:
+  
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

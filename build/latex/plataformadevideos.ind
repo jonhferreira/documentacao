@@ -1,0 +1,74 @@
+\begin{sphinxtheindex}
+\let\bigletter\sphinxstyleindexlettergroup
+\let\spxpagem \sphinxstyleindexpagemain
+\let\spxentry \sphinxstyleindexentry
+\let\spxextra \sphinxstyleindexextra
+
+  \bigletter A
+  \item \spxentry{add\_Aprendiz()}\spxextra{in module aprendiz}, \hyperpage{1}
+  \item \spxentry{add\_Business()}\spxextra{in module business}, \hyperpage{3}
+  \item \spxentry{add\_canal()}\spxextra{in module canal}, \hyperpage{1}
+  \item \spxentry{add\_video()}\spxextra{in module video}, \hyperpage{2}
+  \item \spxentry{Aprendiz}\spxextra{class in aprendiz}, \hyperpage{1}
+  \item \spxentry{aprendiz}\spxextra{module}, \hyperpage{1}
+  \item \spxentry{Assinatura}\spxextra{class in assinatura}, \hyperpage{2}
+  \item \spxentry{assinatura}\spxextra{module}, \hyperpage{2}
+
+  \indexspace
+  \bigletter B
+  \item \spxentry{Business}\spxextra{class in business}, \hyperpage{3}
+  \item \spxentry{business}\spxextra{module}, \hyperpage{1}
+
+  \indexspace
+  \bigletter C
+  \item \spxentry{Canal}\spxextra{class in canal}, \hyperpage{1}
+  \item \spxentry{canal}\spxextra{module}, \hyperpage{1}
+
+  \indexspace
+  \bigletter D
+  \item \spxentry{del\_Business()}\spxextra{in module business}, \hyperpage{3}
+
+  \indexspace
+  \bigletter E
+  \item \spxentry{edit\_Business()}\spxextra{in module business}, \hyperpage{3}
+  \item \spxentry{edit\_video()}\spxextra{in module video}, \hyperpage{2}
+
+  \indexspace
+  \bigletter G
+  \item \spxentry{get\_Aprendiz()}\spxextra{in module aprendiz}, \hyperpage{1}
+  \item \spxentry{get\_bussiness()}\spxextra{in module business}, \hyperpage{3}
+  \item \spxentry{get\_canais\_aprendiz()}\spxextra{in module canal}, \hyperpage{2}
+  \item \spxentry{get\_canais\_business()}\spxextra{in module canal}, \hyperpage{2}
+  \item \spxentry{get\_usuario()}\spxextra{in module usuario}, \hyperpage{1}
+
+  \indexspace
+  \bigletter I
+  \item \spxentry{Inscricao}\spxextra{class in inscricao}, \hyperpage{2}
+  \item \spxentry{inscricao}\spxextra{module}, \hyperpage{2}
+
+  \indexspace
+  \bigletter L
+  \item \spxentry{list\_Aprendiz()}\spxextra{in module aprendiz}, \hyperpage{1}
+  \item \spxentry{list\_Business()}\spxextra{in module business}, \hyperpage{3}
+
+  \indexspace
+  \bigletter P
+  \item \spxentry{Plano}\spxextra{class in plano}, \hyperpage{2}
+  \item \spxentry{plano}\spxextra{module}, \hyperpage{2}
+
+  \indexspace
+  \bigletter R
+  \item \spxentry{rm\_canal()}\spxextra{in module canal}, \hyperpage{2}
+  \item \spxentry{rm\_video()}\spxextra{in module video}, \hyperpage{3}
+
+  \indexspace
+  \bigletter U
+  \item \spxentry{Usuario}\spxextra{class in usuario}, \hyperpage{1}
+  \item \spxentry{usuario}\spxextra{module}, \hyperpage{1}
+
+  \indexspace
+  \bigletter V
+  \item \spxentry{Video}\spxextra{class in video}, \hyperpage{2}
+  \item \spxentry{video}\spxextra{module}, \hyperpage{2}
+
+\end{sphinxtheindex}

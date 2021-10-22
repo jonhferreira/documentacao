@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to plataforma de videos’s documentation! &mdash; plataforma de videos v1.0 documentation</title><link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="#" class="icon icon-home"> plataforma de videos
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Welcome to plataforma de videos’s documentation!</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">plataforma de videos</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+      <li>Welcome to plataforma de videos’s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="module-usuario">
+<span id="welcome-to-plataforma-de-videos-s-documentation"></span><h1>Welcome to plataforma de videos’s documentation!<a class="headerlink" href="#module-usuario" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="usuario.Usuario">
+<em class="property">class </em><code class="descclassname">usuario.</code><code class="descname">Usuario</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#usuario.Usuario" title="Permalink to this definition">¶</a></dt>
+<dd><p>Modelo que representa usuario generico.</p>
+<dl class="docutils">
+<dt>Atributos</dt>
+<dd><p class="first">id: Integer</p>
+<p>nome: Unicode</p>
+<p>email: Unicode</p>
+<p>senha: Unicode</p>
+<p class="last">tipo: Unicode</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="usuario.get_usuario">
+<code class="descclassname">usuario.</code><code class="descname">get_usuario</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#usuario.get_usuario" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retorna o registro de um usuario
+generico.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">um arquivo json com o registro de um usuario generico.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">json</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<span class="target" id="module-aprendiz"></span><dl class="class">
+<dt id="aprendiz.Aprendiz">
+<em class="property">class </em><code class="descclassname">aprendiz.</code><code class="descname">Aprendiz</code><span class="sig-paren">(</span><em>nome</em>, <em>email</em>, <em>senha</em>, <em>data_nasc</em><span class="sig-paren">)</span><a class="headerlink" href="#aprendiz.Aprendiz" title="Permalink to this definition">¶</a></dt>
+<dd><p>Modelo que representa usuario aprendiz.</p>
+<dl class="docutils">
+<dt>Atributos</dt>
+<dd><p class="first">id: Integer</p>
+<p>nome: Unicode</p>
+<p>email: Unicode</p>
+<p>senha: Unicode</p>
+<p class="last">data_nasc: Date</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="aprendiz.add_Aprendiz">
+<code class="descclassname">aprendiz.</code><code class="descname">add_Aprendiz</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#aprendiz.add_Aprendiz" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adiciona um usuario aprendiz na tabela
+aprendiz.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Retorna um json com status da adicao</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">json</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="aprendiz.get_Aprendiz">
+<code class="descclassname">aprendiz.</code><code class="descname">get_Aprendiz</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#aprendiz.get_Aprendiz" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retorna o registro de um usuario
+aprendiz.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Retorna um arquivo json com o registro de um usuario aprendiz.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">json</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="aprendiz.list_Aprendiz">
+<code class="descclassname">aprendiz.</code><code class="descname">list_Aprendiz</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#aprendiz.list_Aprendiz" title="Permalink to this definition">¶</a></dt>
+<dd><p>Lista todos os registros da tabela
+aprendiz.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Retorna um arquivo json com todos os registros da tabela aprendiz.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">json</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<span class="target" id="module-business"></span><span class="target" id="module-canal"></span><dl class="class">
+<dt id="canal.Canal">
+<em class="property">class </em><code class="descclassname">canal.</code><code class="descname">Canal</code><span class="sig-paren">(</span><em>nome</em>, <em>dono</em>, <em>thumbnail</em><span class="sig-paren">)</span><a class="headerlink" href="#canal.Canal" title="Permalink to this definition">¶</a></dt>
+<dd><p>Modelo que representa um canal.</p>
+<dl class="docutils">
+<dt>Atributos</dt>
+<dd><p class="first">id: Integer</p>
+<p>nome: Unicode</p>
+<p>dono: Integer</p>
+<p class="last">thumbnail: LargeBinary</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="canal.add_canal">
+<code class="descclassname">canal.</code><code class="descname">add_canal</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#canal.add_canal" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adiciona um canal na tabela
+canal.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Retorna uma dupla com vazio e o codigo 200.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(str,int)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="canal.get_canais_aprendiz">
+<code class="descclassname">canal.</code><code class="descname">get_canais_aprendiz</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#canal.get_canais_aprendiz" title="Permalink to this definition">¶</a></dt>
+<dd><p>Lista todos os registros
+de canais nos quais um usuario
+aprendiz esta inscrito.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Retorna um arquivo json com registros de canais.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">json</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="canal.get_canais_business">
+<code class="descclassname">canal.</code><code class="descname">get_canais_business</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#canal.get_canais_business" title="Permalink to this definition">¶</a></dt>
+<dd><p>Lista todos os registros
+de canais pertencentes a um usuario
+business.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Retorna um arquivo json com registros de canais.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">json</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="canal.rm_canal">
+<code class="descclassname">canal.</code><code class="descname">rm_canal</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#canal.rm_canal" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove um registro de canal da tabela
+canal.</p>
+</dd></dl>
+
+<span class="target" id="module-inscricao"></span><dl class="class">
+<dt id="inscricao.Inscricao">
+<em class="property">class </em><code class="descclassname">inscricao.</code><code class="descname">Inscricao</code><span class="sig-paren">(</span><em>canal</em>, <em>aprendiz</em><span class="sig-paren">)</span><a class="headerlink" href="#inscricao.Inscricao" title="Permalink to this definition">¶</a></dt>
+<dd><p>Modelo que representa uma inscricao.</p>
+<dl class="docutils">
+<dt>Atributos</dt>
+<dd><p class="first">id: Integer</p>
+<p>canal: Unicode</p>
+<p class="last">aprendiz: Unicode</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-assinatura"></span><dl class="class">
+<dt id="assinatura.Assinatura">
+<em class="property">class </em><code class="descclassname">assinatura.</code><code class="descname">Assinatura</code><span class="sig-paren">(</span><em>usuario</em>, <em>plano</em><span class="sig-paren">)</span><a class="headerlink" href="#assinatura.Assinatura" title="Permalink to this definition">¶</a></dt>
+<dd><p>Modelo que representa assinatura.</p>
+<dl class="docutils">
+<dt>Atributos</dt>
+<dd><p class="first">id: Integer</p>
+<p>usuario: Unicode</p>
+<p class="last">plano: Unicode</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-plano"></span><dl class="class">
+<dt id="plano.Plano">
+<em class="property">class </em><code class="descclassname">plano.</code><code class="descname">Plano</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#plano.Plano" title="Permalink to this definition">¶</a></dt>
+<dd><p>Modelo que representa um plano.</p>
+<dl class="docutils">
+<dt>Atributos</dt>
+<dd><p class="first">id: Integer</p>
+<p>nome: Unicode</p>
+<p class="last">preco: Float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-video"></span><dl class="class">
+<dt id="video.Video">
+<em class="property">class </em><code class="descclassname">video.</code><code class="descname">Video</code><span class="sig-paren">(</span><em>canal</em>, <em>titulo</em>, <em>descricao</em>, <em>link</em><span class="sig-paren">)</span><a class="headerlink" href="#video.Video" title="Permalink to this definition">¶</a></dt>
+<dd><p>Modelo que representa video.</p>
+<dl class="docutils">
+<dt>Atributos</dt>
+<dd><p class="first">id: Integer</p>
+<p>canal: Integer</p>
+<p>titulo: Unicode</p>
+<p>descricao: Unicode</p>
+<p class="last">link: Unicode</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="video.add_video">
+<code class="descclassname">video.</code><code class="descname">add_video</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#video.add_video" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adiciona o registro de um video na tabela
+video.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">retorna uma dupla com vazio e o codigo 200.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(str,int)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="video.edit_video">
+<code class="descclassname">video.</code><code class="descname">edit_video</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#video.edit_video" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edita atributos de um registro video
+da tabela videos.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">uma dupla com vazio e o codigo 200.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(str,int)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="video.rm_video">
+<code class="descclassname">video.</code><code class="descname">rm_video</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#video.rm_video" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove um registro de um video da tabela
+video.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">um json vazio</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">json</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="business.Business">
+<em class="property">class </em><code class="descclassname">business.</code><code class="descname">Business</code><span class="sig-paren">(</span><em>nome</em>, <em>email</em>, <em>senha</em><span class="sig-paren">)</span><a class="headerlink" href="#business.Business" title="Permalink to this definition">¶</a></dt>
+<dd><p>Modelo que representa usuario business.</p>
+<dl class="docutils">
+<dt>Atributos</dt>
+<dd><p class="first">id: Integer</p>
+<p>nome: Unicode</p>
+<p>email: Unicode</p>
+<p>senha: Unicode</p>
+<p class="last">tipo: Unicode</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="business.add_Business">
+<code class="descclassname">business.</code><code class="descname">add_Business</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#business.add_Business" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adiciona um usuario business na tabela
+business.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">uma dupla com vazio e o codigo 200.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(str,int)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="business.del_Business">
+<code class="descclassname">business.</code><code class="descname">del_Business</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#business.del_Business" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove um usuario business da tabela
+business.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="business.edit_Business">
+<code class="descclassname">business.</code><code class="descname">edit_Business</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#business.edit_Business" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edita atributos de um registro business
+da tabela business.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">uma dupla com vazio e o codigo 200.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">(str,int)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="business.get_bussiness">
+<code class="descclassname">business.</code><code class="descname">get_bussiness</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#business.get_bussiness" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retorna o registro de um usuario
+business.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">um arquivo json com o registro de um usuario business.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">json</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="business.list_Business">
+<code class="descclassname">business.</code><code class="descname">list_Business</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#business.list_Business" title="Permalink to this definition">¶</a></dt>
+<dd><p>Lista todos os registros da tabela
+business.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">um arquivo json com todos os registros da tabela business.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">json</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<div class="toctree-wrapper compound">
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Jonh Kennedy.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
